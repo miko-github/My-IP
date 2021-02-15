@@ -1,6 +1,5 @@
 import requests
-from colorama import Fore, Back, Style 
-# from termcolor import colored, cprint 
+
 
 ip = requests.get("https://api.myip.com").json()
 
